@@ -1,0 +1,89 @@
+.link-N-under {
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.center-2{
+    max-width: 600px;
+}
+
+.center-2 label,.center-2 input{
+    margin-top: 8px;
+}
+
+.right{
+    float: right;
+}
+
+.tasks{
+    display: grid;
+    grid-template-columns: 70% 20% 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    border-color: rgb(235, 238, 238);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 10px 25px 10px 20px;
+    margin-bottom: 20px;
+}
+
+.taskslate{
+    display: grid;
+    grid-template-columns: 70% 20% 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    border-color: rgb(238, 48, 48);
+    box-shadow: 0 3px 10px rgba(255, 0, 0, 0.356);
+    padding: 10px 25px 10px 20px;
+    margin-bottom: 20px;
+}
+
+.taskscomplete{
+    display: grid;
+    grid-template-columns: 70% 20% 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    border-color: rgb(60, 230, 82);
+    box-shadow: 0 3px 10px rgba(0, 255, 98, 0.356);
+    padding: 10px 25px 10px 20px;
+    margin-bottom: 20px;
+}
+
+.tasks:hover, .taskscomplete:hover, .taskslate:hover{
+    width: 650px;
+    padding: 30px 30px;
+    margin-left: -25px;
+    transition: 0.5s;
+}
+
+.complete:hover{
+    font-size: 36px;
+    color: green;
+}
+
+.complete-2:hover{
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+.time{
+    text-align: center;
+}
